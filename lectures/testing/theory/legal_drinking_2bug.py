@@ -16,7 +16,8 @@ class LegalToDrinkCalculatorWithTwoBugs:
         :param nationality: nationality of the individual buying the alcohol
         :return:
         """
-        legal = True
+        # legal = True
+        legal = False
         if (Nationality.American == nationality and age >= 21) or (Nationality.British == nationality and age >= 16):
             legal = True
         return legal
