@@ -18,6 +18,7 @@ class LegalToDrinkCalculatorWithTwoBugs:
         """
         # legal = True
         legal = False
-        if (Nationality.American == nationality and age >= 21) or (Nationality.British == nationality and age >= 16):
+        if (Nationality.American == nationality and age >= 21) or (
+                        Nationality.British == nationality and age >= 18):
             legal = True
         return legal

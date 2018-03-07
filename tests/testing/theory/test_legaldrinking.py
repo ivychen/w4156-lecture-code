@@ -42,7 +42,7 @@ class Test100BranchCoverageOneBug(unittest.TestCase):
         The above two test cases hit 100% branch coverage. However, there is still a bug.
         This test cases exposes the bug
         """
-        self.assertFalse(LegalToDrinkCalculatorWithOneBug.is_legal(10,Nationality.British))
+        self.assertFalse(LegalToDrinkCalculatorWithOneBug.is_legal(17,Nationality.British))
 
 
 class TestConditionCoverageNoBugs(unittest.TestCase):

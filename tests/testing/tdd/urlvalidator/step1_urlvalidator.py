@@ -1,6 +1,7 @@
 import unittest
 
-from lectures.testing.tdd.step1_urlvalidator import URLValidator as Step1Validator
+from lectures.testing.tdd.urlvalidator.step1_urlvalidator import URLValidator as \
+    Step1Validator
 
 
 class Step1(unittest.TestCase):
